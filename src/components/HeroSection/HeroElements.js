@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.section`
     height: calc(100vh);
-    padding: 80px 16px;
+    padding: 80px 16px 0px;
 `;
 
 export const HeroContent = styled.div`
