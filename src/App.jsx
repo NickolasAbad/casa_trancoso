@@ -5,11 +5,11 @@ import Home from './pages';
 import './App.css';
 
 function App() {
-  return (
-    <Router>
-      <Home />
-    </Router>
-  );
+    return (
+        <Router>
+            <Home />
+        </Router>
+    );
 }
 
 export default App;
