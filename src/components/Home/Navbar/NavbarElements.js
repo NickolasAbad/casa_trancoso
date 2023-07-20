@@ -89,6 +89,10 @@ export const NavLinks = styled(LinkS)`
         font-weight: 400;
         color: #112b3c;
     }
+
+    @media screen and (max-width: 992px) {
+        padding: 0 8px;
+    }
 `;
 
 export const NavBtn = styled.nav`
