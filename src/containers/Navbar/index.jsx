@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiArrowBack } from 'react-icons/bi';
 
-import { Container } from '../../Container';
+import { Container } from '../../components/Container';
 
 import { Nav, NavbarContainer, NavLogo } from './NavbarElements';
 

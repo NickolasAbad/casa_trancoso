@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Galeria from '@/components/Comodidades/Exterior/Galeria';
+import Galeria from '@/components/Comodidades/Caraiva/Galeria';
 import Navbar from '@/containers/Navbar';
 
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-const Exterior = () => {
+const Caraiva = () => {
     return (
         <>
             <Navbar />
@@ -14,4 +14,4 @@ const Exterior = () => {
     );
 };
 
-export default Exterior;
+export default Caraiva;

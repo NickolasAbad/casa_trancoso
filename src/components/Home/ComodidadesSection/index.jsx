@@ -108,7 +108,7 @@ const Comodidades = () => {
                         >
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'/fachada'}>
                                         <img
                                             src={Fachada}
                                             alt="Foto Fachada da Casa"
@@ -120,7 +120,7 @@ const Comodidades = () => {
                                             Desfrute desta vista maravilhosa da
                                             nossa fachada
                                         </ItemDesc>
-                                        <ItemButton to={'/exterior'}>
+                                        <ItemButton to={'/fachada'}>
                                             Ver imagens
                                         </ItemButton>
                                     </ItemInfos>
@@ -128,7 +128,7 @@ const Comodidades = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'/exterior'}>
                                         <img
                                             src={Exterior}
                                             alt="Foto Exterior da Casa"
@@ -141,13 +141,15 @@ const Comodidades = () => {
                                             isso e muito mais você só encontra
                                             aqui
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'/exterior'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'/interior'}>
                                         <img
                                             src={Interior}
                                             alt="Foto Interior da Casa"
@@ -160,13 +162,15 @@ const Comodidades = () => {
                                             conforto e a beleza presente no
                                             interior da nossa casa.
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'/interior'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'/ofuro'}>
                                         <img
                                             src={Ofuro}
                                             alt="Foto Ofurô da Casa"
@@ -180,13 +184,15 @@ const Comodidades = () => {
                                             exclusivamente para o seu
                                             relaxamento
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'/ofuro'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'/churrasqueira'}>
                                         <img
                                             src={Churrasqueira}
                                             alt="Foto Churrasqueira da Casa"
@@ -200,13 +206,15 @@ const Comodidades = () => {
                                             conhecidos para um evento
                                             aconchegante
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'/ofuro'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'/caraiva'}>
                                         <img
                                             src={Caraiva}
                                             alt="Foto da Suíte 1"
@@ -218,13 +226,15 @@ const Comodidades = () => {
                                             <LuBedDouble />
                                             <span> 1x Cama Casal</span>
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'/caraiva'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'/arraial'}>
                                         <img
                                             src={Arraial}
                                             alt="Foto da Suíte 2"
@@ -239,13 +249,15 @@ const Comodidades = () => {
                                             <LuBedSingle />
                                             <span> 1x Cama Solteiro</span>
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'/arraial'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'trancoso'}>
                                         <img
                                             src={Trancoso}
                                             alt="Foto da Suíte 3"
@@ -260,13 +272,15 @@ const Comodidades = () => {
                                             <LuBedSingle />
                                             <span> 1x Cama Solteiro</span>
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'trancoso'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'praia-do-espelho'}>
                                         <img
                                             src={Espelho}
                                             alt="Foto da Suíte 4"
@@ -283,13 +297,15 @@ const Comodidades = () => {
                                             <LuBedSingle />
                                             <span> 2x Cama Solteiro</span>
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'praia-do-espelho'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'porto-seguro'}>
                                         <img
                                             src={PortoSeguro}
                                             alt="Foto Suíte 5"
@@ -306,13 +322,15 @@ const Comodidades = () => {
                                             <LuBedSingle />
                                             <span> 2x Cama Solteiro</span>
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'porto-seguro'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <ComodidadesItem>
-                                    <ItemImage>
+                                    <ItemImage to={'corumbau'}>
                                         <img
                                             src={Corumbau}
                                             alt="Foto Suíte 6"
@@ -327,7 +345,9 @@ const Comodidades = () => {
                                             <LuBedSingle />
                                             <span> 2x Cama Solteiro</span>
                                         </ItemDesc>
-                                        <ItemButton>Ver imagens</ItemButton>
+                                        <ItemButton to={'corumbau'}>
+                                            Ver imagens
+                                        </ItemButton>
                                     </ItemInfos>
                                 </ComodidadesItem>
                             </SwiperSlide>
