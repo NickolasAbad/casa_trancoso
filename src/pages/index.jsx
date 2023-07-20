@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import AvaliacoesSection from '@/components/Home/AvaliacoesSection/';
 import ComodidadesSection from '@/components/Home/ComodidadesSection';
 import HeroSection from '@/components/Home/HeroSection';
 import Navbar from '@/components/Home/Navbar';
@@ -20,6 +21,7 @@ const Home = () => {
             <HeroSection />
             <SobreSection />
             <ComodidadesSection />
+            <AvaliacoesSection />
         </>
     );
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import LazyLoad from 'react-lazy-load';
 
 import image from '../../../images/Sobre/sobreImages.png';
 import { Container } from '../../Container';
@@ -33,12 +32,10 @@ const Sobre = () => {
             <Container>
                 <SobreContent>
                     <SobreImage id="a">
-                        <LazyLoad height={675} offset={300}>
-                            <img
-                                src={image}
-                                alt="Foto interior e piscina da Casa Odará"
-                            />
-                        </LazyLoad>
+                        <img
+                            src={image}
+                            alt="Foto interior e piscina da Casa Odará"
+                        />
                     </SobreImage>
                     <SobreTexts id="b">
                         <SobreSpan>Sobre</SobreSpan>

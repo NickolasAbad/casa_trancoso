@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaMapMarkedAlt } from 'react-icons/fa';
-import LazyLoad from 'react-lazy-load';
 
 import image from '../../../images/Hero/heroimages.png';
 import { Container } from '../../Container';
@@ -20,6 +19,7 @@ import {
 } from './HeroElements';
 
 const HeroSection = () => {
+    const maps = 'https://goo.gl/maps/fmJLvfh9sXp3MXbu6';
     return (
         <>
             <HeroContainer id="inicio">
@@ -36,7 +36,7 @@ const HeroSection = () => {
                             <HeroButton
                                 onClick={() =>
                                     window.open(
-                                        'https://goo.gl/maps/fmJLvfh9sXp3MXbu6',
+                                        maps,
                                         '_blank',
                                         'rel=noopener noreferrer',
                                     )
@@ -54,9 +54,7 @@ const HeroSection = () => {
                             </HeroButton>
                         </HeroTexts>
                         <HeroImage>
-                            <LazyLoad height={580} offset={300}>
-                                <img src={image} alt="" />
-                            </LazyLoad>
+                            <img src={image} alt="Foto entrada Casa Odará" />
                         </HeroImage>
                     </HeroContent>
                 </Container>

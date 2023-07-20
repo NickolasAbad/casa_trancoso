@@ -1,12 +1,7 @@
 import styled from 'styled-components';
 
 export const SobreContainer = styled.section`
-    height: 100vh;
-    padding: 100px 16px 40px;
-
-    @media screen and (max-width: 768px) {
-        height: auto;
-    }
+    padding: 5.6vw;
 `;
 
 export const SobreContent = styled.div`

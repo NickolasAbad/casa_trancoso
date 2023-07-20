@@ -1,12 +1,7 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.section`
-    height: 100vh;
-    padding: 80px 16px 0px;
-
-    @media screen and (max-width: 768px) {
-        height: auto;
-    }
+    padding: 5.6vw;
 `;
 
 export const HeroContent = styled.div`

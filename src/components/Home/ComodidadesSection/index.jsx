@@ -58,6 +58,142 @@ const Comodidades = () => {
         sliderRef.current.swiper.slideNext();
     }, []);
 
+    const slidesData = [
+        {
+            to: '/fachada',
+            image: Fachada,
+            alt: 'Foto Fachada da Casa',
+            title: 'Fachada',
+            desc: 'Desfrute desta vista maravilhosa da nossa fachada',
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/exterior',
+            image: Exterior,
+            alt: 'Foto Exterior da Casa',
+            title: 'Exterior',
+            desc: 'Flores, piscina, área verde, tudo isso e muito mais você só encontra aqui',
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/interior',
+            image: Interior,
+            alt: 'Foto Interior da Casa',
+            title: 'Interior',
+            desc: 'Desfrute do luxo e elegância com o conforto e a beleza presente no interior da nossa casa.',
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/ofuro',
+            image: Ofuro,
+            alt: 'Foto Ofurô da Casa',
+            title: 'Ofurô',
+            desc: 'Espaço gourmet acomplado com um ofurô pensado e planejado exclusivamente para o seu relaxamento',
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/churrasqueira',
+            image: Churrasqueira,
+            alt: 'Foto Churrasqueira da Casa',
+            title: 'Churrasqueira',
+            desc: 'Espaço com churrasqueira e mesa, ótimo para reunir família, amigos e conhecidos para um evento aconchegante',
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/caraiva',
+            image: Caraiva,
+            alt: 'Foto da Suíte 1',
+            title: 'Suíte Caraíva',
+            desc: (
+                <>
+                    <LuBedDouble />
+                    <span> 1x Cama Casal</span>
+                </>
+            ),
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/arraial',
+            image: Arraial,
+            alt: 'Foto da Suíte 2',
+            title: 'Súite Arraial',
+            desc: (
+                <>
+                    <LuBedDouble />
+                    <span> 1x Cama Queen Size</span>
+                    <br />
+                    <LuBedSingle />
+                    <span> 1x Cama Solteiro</span>
+                </>
+            ),
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/trancoso',
+            image: Trancoso,
+            alt: 'Foto da Suíte 3',
+            title: 'Súite Trancoso',
+            desc: (
+                <>
+                    <LuBedDouble />
+                    <span> 1x Cama Queen Size</span>
+                    <br />
+                    <LuBedSingle />
+                    <span> 1x Cama Solteiro</span>
+                </>
+            ),
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/praia-do-espelho',
+            image: Espelho,
+            alt: 'Foto da Suíte 4',
+            title: 'Súite Praia do Espelho',
+            desc: (
+                <>
+                    <LuBedDouble />
+                    <span> 1x Cama Queen Size</span>
+                    <br />
+                    <LuBedSingle />
+                    <span> 2x Cama Solteiro</span>
+                </>
+            ),
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/porto-seguro',
+            image: PortoSeguro,
+            alt: 'Foto Suíte 5',
+            title: 'Súite Porto Seguro',
+            desc: (
+                <>
+                    <LuBedDouble />
+                    <span> 2x Cama Casal</span>
+                    <br />
+                    <LuBedSingle />
+                    <span> 2x Cama Solteiro</span>
+                </>
+            ),
+            buttonText: 'Ver imagens',
+        },
+        {
+            to: '/corumbau',
+            image: Corumbau,
+            alt: 'Foto Suíte 6',
+            title: 'Súite Corumbau',
+            desc: (
+                <>
+                    <LuBedDouble />
+                    <span> 1x Cama Queen Size</span>
+                    <br />
+                    <LuBedSingle />
+                    <span> 2x Cama Solteiro</span>
+                </>
+            ),
+            buttonText: 'Ver imagens',
+        },
+    ];
+
     return (
         <ComodidadesContainer id="comodidades">
             <Container>
@@ -84,7 +220,6 @@ const Comodidades = () => {
                             ref={sliderRef}
                             slidesPerView={1}
                             spaceBetween={10}
-                            loop={true}
                             autoplay={{
                                 delay: 2500,
                                 disableOnInteraction: false,
@@ -107,284 +242,28 @@ const Comodidades = () => {
                             }}
                             className="mySwiper"
                         >
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'/fachada'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Fachada}
-                                                alt="Foto Fachada da Casa"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Fachada</ItemTitle>
-                                        <ItemDesc>
-                                            Desfrute desta vista maravilhosa da
-                                            nossa fachada
-                                        </ItemDesc>
-                                        <ItemButton to={'/fachada'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'/exterior'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Exterior}
-                                                alt="Foto Exterior da Casa"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Exterior</ItemTitle>
-                                        <ItemDesc>
-                                            Flores, piscina, área verde, tudo
-                                            isso e muito mais você só encontra
-                                            aqui
-                                        </ItemDesc>
-                                        <ItemButton to={'/exterior'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'/interior'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Interior}
-                                                alt="Foto Interior da Casa"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Interior</ItemTitle>
-                                        <ItemDesc>
-                                            Desfrute do luxo e elegância com o
-                                            conforto e a beleza presente no
-                                            interior da nossa casa.
-                                        </ItemDesc>
-                                        <ItemButton to={'/interior'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'/ofuro'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Ofuro}
-                                                alt="Foto Ofurô da Casa"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Ofurô</ItemTitle>
-                                        <ItemDesc>
-                                            Espaço gourmet acomplado com um
-                                            ofurô pensado e planejado
-                                            exclusivamente para o seu
-                                            relaxamento
-                                        </ItemDesc>
-                                        <ItemButton to={'/ofuro'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'/churrasqueira'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Churrasqueira}
-                                                alt="Foto Churrasqueira da Casa"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Churrasqueira</ItemTitle>
-                                        <ItemDesc>
-                                            Espaço com churrasqueira e mesa,
-                                            ótimo para reunir família, amigos e
-                                            conhecidos para um evento
-                                            aconchegante
-                                        </ItemDesc>
-                                        <ItemButton to={'/ofuro'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'/caraiva'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Caraiva}
-                                                alt="Foto da Suíte 1"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Suíte Caraíva</ItemTitle>
-                                        <ItemDesc>
-                                            <LuBedDouble />
-                                            <span> 1x Cama Casal</span>
-                                        </ItemDesc>
-                                        <ItemButton to={'/caraiva'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'/arraial'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Arraial}
-                                                alt="Foto da Suíte 2"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Súite Arraial</ItemTitle>
-                                        <ItemDesc>
-                                            <LuBedDouble />
-                                            <span> 1x Cama Queen Size</span>
-                                            <br />
-                                            <LuBedSingle />
-                                            <span> 1x Cama Solteiro</span>
-                                        </ItemDesc>
-                                        <ItemButton to={'/arraial'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'trancoso'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Trancoso}
-                                                alt="Foto da Suíte 3"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Súite Trancoso</ItemTitle>
-                                        <ItemDesc>
-                                            <LuBedDouble />
-                                            <span> 1x Cama Queen Size</span>
-                                            <br />
-                                            <LuBedSingle />
-                                            <span> 1x Cama Solteiro</span>
-                                        </ItemDesc>
-                                        <ItemButton to={'trancoso'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'praia-do-espelho'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={Espelho}
-                                                alt="Foto da Suíte 4"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>
-                                            Súite Praia do Espelho
-                                        </ItemTitle>
-                                        <ItemDesc>
-                                            <LuBedDouble />
-                                            <span> 1x Cama Queen Size</span>
-                                            <br />
-                                            <LuBedSingle />
-                                            <span> 2x Cama Solteiro</span>
-                                        </ItemDesc>
-                                        <ItemButton to={'praia-do-espelho'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'porto-seguro'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                loading="lazy"
-                                                src={PortoSeguro}
-                                                alt="Foto Suíte 5"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>
-                                            Súite Porto Seguro
-                                        </ItemTitle>
-                                        <ItemDesc>
-                                            <LuBedDouble />
-                                            <span> 2x Cama Casal</span>
-                                            <br />
-                                            <LuBedSingle />
-                                            <span> 2x Cama Solteiro</span>
-                                        </ItemDesc>
-                                        <ItemButton to={'porto-seguro'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <ComodidadesItem>
-                                    <ItemImage to={'corumbau'}>
-                                        <LazyLoad height={300} offset={300}>
-                                            <img
-                                                src={Corumbau}
-                                                alt="Foto Suíte 6"
-                                                loading="lazy"
-                                            />
-                                        </LazyLoad>
-                                    </ItemImage>
-                                    <ItemInfos>
-                                        <ItemTitle>Súite Corumbau</ItemTitle>
-                                        <ItemDesc>
-                                            <LuBedDouble />
-                                            <span> 1x Cama Queen Size</span>
-                                            <br />
-                                            <LuBedSingle />
-                                            <span> 2x Cama Solteiro</span>
-                                        </ItemDesc>
-                                        <ItemButton to={'corumbau'}>
-                                            Ver imagens
-                                        </ItemButton>
-                                    </ItemInfos>
-                                </ComodidadesItem>
-                            </SwiperSlide>
+                            {slidesData.map((slide, index) => (
+                                <SwiperSlide key={index}>
+                                    <ComodidadesItem>
+                                        <ItemImage to={slide.to}>
+                                            <LazyLoad height={300} offset={600}>
+                                                <img
+                                                    loading="lazy"
+                                                    src={slide.image}
+                                                    alt={slide.alt}
+                                                />
+                                            </LazyLoad>
+                                        </ItemImage>
+                                        <ItemInfos>
+                                            <ItemTitle>{slide.title}</ItemTitle>
+                                            <ItemDesc>{slide.desc}</ItemDesc>
+                                            <ItemButton to={slide.to}>
+                                                {slide.buttonText}
+                                            </ItemButton>
+                                        </ItemInfos>
+                                    </ComodidadesItem>
+                                </SwiperSlide>
+                            ))}
                         </Swiper>
                     </ComodidadesSwiper>
                 </ComodidadesContent>

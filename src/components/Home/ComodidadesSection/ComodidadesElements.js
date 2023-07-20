@@ -2,20 +2,7 @@ import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const ComodidadesContainer = styled.section`
-    height: 100vh;
-    padding: 100px 16px 40px;
-
-    @media screen and (max-width: 768px) {
-        height: auto;
-    }
-
-    @media screen and (max-width: 1024px) and (max-height: 650px) {
-        padding-top: 180px;
-    }
-
-    @media screen and (max-height: 600px) {
-        padding-top: 280px;
-    }
+    padding: 5.6vw;
 `;
 
 export const ComodidadesContent = styled.div``;
