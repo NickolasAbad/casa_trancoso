@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaMapMarkedAlt } from 'react-icons/fa';
+import LazyLoad from 'react-lazy-load';
 
 import image from '../../../images/Hero/heroimages.png';
 import { Container } from '../../Container';
@@ -53,7 +54,9 @@ const HeroSection = () => {
                             </HeroButton>
                         </HeroTexts>
                         <HeroImage>
-                            <img src={image} alt="" />
+                            <LazyLoad height={580} offset={300}>
+                                <img src={image} alt="" />
+                            </LazyLoad>
                         </HeroImage>
                     </HeroContent>
                 </Container>

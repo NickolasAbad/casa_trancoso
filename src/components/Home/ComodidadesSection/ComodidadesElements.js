@@ -12,6 +12,10 @@ export const ComodidadesContainer = styled.section`
     @media screen and (max-width: 1024px) and (max-height: 650px) {
         padding-top: 180px;
     }
+
+    @media screen and (max-height: 600px) {
+        padding-top: 280px;
+    }
 `;
 
 export const ComodidadesContent = styled.div``;

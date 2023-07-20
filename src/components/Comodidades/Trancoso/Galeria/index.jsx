@@ -32,7 +32,7 @@ const Galeria = () => {
     return (
         <GaleriaSection>
             <Container style={{ marginBottom: '10vh' }}>
-                <ImageGallery autoPlay={true} items={images} />
+                <ImageGallery autoPlay={true} items={images} lazyLoad={true} />
             </Container>
         </GaleriaSection>
     );

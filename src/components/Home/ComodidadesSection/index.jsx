@@ -1,6 +1,7 @@
 import React, { useCallback, useRef } from 'react';
 import { AiFillLeftCircle, AiFillRightCircle } from 'react-icons/ai';
 import { LuBedDouble, LuBedSingle } from 'react-icons/lu';
+import LazyLoad from 'react-lazy-load';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -109,10 +110,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'/fachada'}>
-                                        <img
-                                            src={Fachada}
-                                            alt="Foto Fachada da Casa"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Fachada}
+                                                alt="Foto Fachada da Casa"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Fachada</ItemTitle>
@@ -129,10 +133,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'/exterior'}>
-                                        <img
-                                            src={Exterior}
-                                            alt="Foto Exterior da Casa"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Exterior}
+                                                alt="Foto Exterior da Casa"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Exterior</ItemTitle>
@@ -150,10 +157,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'/interior'}>
-                                        <img
-                                            src={Interior}
-                                            alt="Foto Interior da Casa"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Interior}
+                                                alt="Foto Interior da Casa"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Interior</ItemTitle>
@@ -171,10 +181,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'/ofuro'}>
-                                        <img
-                                            src={Ofuro}
-                                            alt="Foto Ofurô da Casa"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Ofuro}
+                                                alt="Foto Ofurô da Casa"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Ofurô</ItemTitle>
@@ -193,10 +206,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'/churrasqueira'}>
-                                        <img
-                                            src={Churrasqueira}
-                                            alt="Foto Churrasqueira da Casa"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Churrasqueira}
+                                                alt="Foto Churrasqueira da Casa"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Churrasqueira</ItemTitle>
@@ -215,10 +231,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'/caraiva'}>
-                                        <img
-                                            src={Caraiva}
-                                            alt="Foto da Suíte 1"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Caraiva}
+                                                alt="Foto da Suíte 1"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Suíte Caraíva</ItemTitle>
@@ -235,10 +254,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'/arraial'}>
-                                        <img
-                                            src={Arraial}
-                                            alt="Foto da Suíte 2"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Arraial}
+                                                alt="Foto da Suíte 2"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Súite Arraial</ItemTitle>
@@ -258,10 +280,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'trancoso'}>
-                                        <img
-                                            src={Trancoso}
-                                            alt="Foto da Suíte 3"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Trancoso}
+                                                alt="Foto da Suíte 3"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Súite Trancoso</ItemTitle>
@@ -281,10 +306,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'praia-do-espelho'}>
-                                        <img
-                                            src={Espelho}
-                                            alt="Foto da Suíte 4"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={Espelho}
+                                                alt="Foto da Suíte 4"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>
@@ -306,10 +334,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'porto-seguro'}>
-                                        <img
-                                            src={PortoSeguro}
-                                            alt="Foto Suíte 5"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                loading="lazy"
+                                                src={PortoSeguro}
+                                                alt="Foto Suíte 5"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>
@@ -331,10 +362,13 @@ const Comodidades = () => {
                             <SwiperSlide>
                                 <ComodidadesItem>
                                     <ItemImage to={'corumbau'}>
-                                        <img
-                                            src={Corumbau}
-                                            alt="Foto Suíte 6"
-                                        />
+                                        <LazyLoad height={300} offset={300}>
+                                            <img
+                                                src={Corumbau}
+                                                alt="Foto Suíte 6"
+                                                loading="lazy"
+                                            />
+                                        </LazyLoad>
                                     </ItemImage>
                                     <ItemInfos>
                                         <ItemTitle>Súite Corumbau</ItemTitle>
