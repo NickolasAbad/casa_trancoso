@@ -19,17 +19,17 @@ function App() {
         <Router>
             <Routes>
                 <Route path="*" element={<Home />} />
-                <Route path="exterior" element={<Exterior />} />
-                <Route path="interior" element={<Interior />} />
-                <Route path="fachada" element={<Fachada />} />
-                <Route path="ofuro" element={<Ofuro />} />
-                <Route path="churrasqueira" element={<Churrasqueira />} />
-                <Route path="caraiva" element={<Caraiva />} />
-                <Route path="arraial" element={<Arraial />} />
-                <Route path="trancoso" element={<Trancoso />} />
-                <Route path="praia-do-espelho" element={<PraiaDoEspelho />} />
-                <Route path="porto-seguro" element={<PortoSeguro />} />
-                <Route path="corumbau" element={<Corumbau />} />
+                <Route path="/exterior" element={<Exterior />} />
+                <Route path="/interior" element={<Interior />} />
+                <Route path="/fachada" element={<Fachada />} />
+                <Route path="/ofuro" element={<Ofuro />} />
+                <Route path="/churrasqueira" element={<Churrasqueira />} />
+                <Route path="/caraiva" element={<Caraiva />} />
+                <Route path="/arraial" element={<Arraial />} />
+                <Route path="/trancoso" element={<Trancoso />} />
+                <Route path="/praia-do-espelho" element={<PraiaDoEspelho />} />
+                <Route path="/porto-seguro" element={<PortoSeguro />} />
+                <Route path="/corumbau" element={<Corumbau />} />
             </Routes>
         </Router>
     );
