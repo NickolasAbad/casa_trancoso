@@ -11,6 +11,6 @@
         {"src": "/trancoso", "dest": "/"},
         {"src": "/praia-do-espelho", "dest": "/"},
         {"src": "/porto-seguro", "dest": "/"},
-        {"src": "/corumbau", "dest": "/"},
+        {"src": "/corumbau", "dest": "/"}
     ]
   }
