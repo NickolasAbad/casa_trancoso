@@ -1,4 +1,7 @@
+import viteImagemin from '@vheemstra/vite-plugin-imagemin';
 import react from '@vitejs/plugin-react-swc';
+// The minifiers you want to use:
+import imageminWebp from 'imagemin-webp';
 import { fileURLToPath, URL } from 'node:url';
 // import bundleAnalyzer from 'rollup-plugin-bundle-analyzer';
 import { defineConfig, loadEnv } from 'vite';
@@ -22,6 +25,11 @@ export default defineConfig(({ mode }) => {
                 },
             }),
             vsharp,
+            viteImagemin({
+                plugins: {
+                    jpg: imageminWebp(),
+                },
+            }),
         ],
         resolve: {
             alias: {
