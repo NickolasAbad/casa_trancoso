@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 
 import AvaliacoesSection from '@/components/Home/AvaliacoesSection/';
 import ComodidadesSection from '@/components/Home/ComodidadesSection';
+import DicasSection from '@/components/Home/DicasSection';
 import FooterSection from '@/components/Home/FooterSection';
 import HeroSection from '@/components/Home/HeroSection';
+import InformacoesSection from '@/components/Home/InformacoesSection';
 import Navbar from '@/components/Home/Navbar';
-import ReserveDicasSection from '@/components/Home/ReserveDicasSection';
+import ReserveSection from '@/components/Home/ReserveSection';
 import Sidebar from '@/components/Home/Sidebar';
 import SobreSection from '@/components/Home/SobreSection';
 import ModalDiv from '@/containers/Modal';
@@ -27,9 +29,11 @@ const Home = () => {
             <ModalDiv togglerModal={togglerModal} open={open} />
             <HeroSection />
             <SobreSection />
+            <InformacoesSection />
             <ComodidadesSection />
             <AvaliacoesSection />
-            <ReserveDicasSection togglerModal={togglerModal} />
+            <DicasSection />
+            <ReserveSection togglerModal={togglerModal} />
             <FooterSection />
         </>
     );

@@ -14,7 +14,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroTexts = styled.div`
-    max-width: 40%;
+    max-width: 50%;
     padding-top: 80px;
 
     @media screen and (max-width: 768px) {

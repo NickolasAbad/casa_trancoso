@@ -1,4 +1,5 @@
 import React from 'react';
+import { Instagram } from '@mui/icons-material';
 
 import { Container } from '@/components/Container';
 
@@ -7,8 +8,10 @@ import {
     FooterContent,
     FooterDeveloper,
     FooterInformacoes,
+    FooterInstagram,
     FooterSobre,
     FooterTitle,
+    InstagramItems,
     ItemInformacoes,
     ItemSobre,
 } from './FooterElements';
@@ -19,78 +22,100 @@ const FooterSection = () => {
             <Footer>
                 <Container>
                     <FooterContent>
-                        <FooterSobre>
-                            <FooterTitle>Sobre</FooterTitle>
-                            <ItemSobre
-                                spy={true}
-                                smooth
-                                offset={-70}
-                                duration={500}
-                                to="inicio"
+                        <FooterInstagram>
+                            <InstagramItems
+                                to="https://www.instagram.com/casaodaratrancoso/"
+                                target="_blank"
                             >
-                                Início
-                            </ItemSobre>
-                            <ItemSobre
-                                spy={true}
-                                smooth
-                                offset={-70}
-                                duration={500}
-                                to="sobre"
-                            >
-                                Sobre
-                            </ItemSobre>
-                            <ItemSobre
-                                spy={true}
-                                smooth
-                                offset={-70}
-                                duration={500}
-                                to="comodidades"
-                            >
-                                Comodidades
-                            </ItemSobre>
-                            <ItemSobre
-                                spy={true}
-                                smooth
-                                offset={-70}
-                                duration={500}
-                                to="avaliacoes"
-                            >
-                                Avaliações
-                            </ItemSobre>
-                            <ItemSobre
-                                spy={true}
-                                smooth
-                                offset={-70}
-                                duration={500}
-                                to="dicas"
-                            >
-                                Dicas
-                            </ItemSobre>
-                        </FooterSobre>
-                        <FooterInformacoes>
-                            <FooterTitle>Informações</FooterTitle>
-                            <ItemInformacoes to="/politica-de-privacidade">
-                                Política de Privacidade
-                            </ItemInformacoes>
-                            <ItemInformacoes to="/termos-e-condicoes">
-                                Termos e condições de uso
-                            </ItemInformacoes>
-                            <ItemInformacoes to="/regras">
-                                Regras
-                            </ItemInformacoes>
-                            <ItemInformacoes to="https://api.whatsapp.com/send?phone=5577988115001">
-                                Contato
-                            </ItemInformacoes>
-                            <ItemSobre
-                                spy={true}
-                                smooth
-                                offset={-70}
-                                duration={500}
-                                to="dicas"
-                            >
-                                Reserva
-                            </ItemSobre>
-                        </FooterInformacoes>
+                                <Instagram style={{ marginRight: '4px' }} />
+                                <span
+                                    style={{
+                                        display: 'inline-block',
+                                        verticalAlign: 'middle',
+                                    }}
+                                >
+                                    Instagram Casa Odara
+                                </span>
+                            </InstagramItems>
+                        </FooterInstagram>
+                        <div
+                            className="infos"
+                            style={{ display: 'flex', columnGap: '32px' }}
+                        >
+                            <FooterSobre>
+                                <FooterTitle>Sobre</FooterTitle>
+                                <ItemSobre
+                                    spy={true}
+                                    smooth
+                                    offset={-70}
+                                    duration={500}
+                                    to="inicio"
+                                >
+                                    Início
+                                </ItemSobre>
+                                <ItemSobre
+                                    spy={true}
+                                    smooth
+                                    offset={-70}
+                                    duration={500}
+                                    to="sobre"
+                                >
+                                    Sobre
+                                </ItemSobre>
+                                <ItemSobre
+                                    spy={true}
+                                    smooth
+                                    offset={-70}
+                                    duration={500}
+                                    to="comodidades"
+                                >
+                                    Comodidades
+                                </ItemSobre>
+                                <ItemSobre
+                                    spy={true}
+                                    smooth
+                                    offset={-70}
+                                    duration={500}
+                                    to="avaliacoes"
+                                >
+                                    Avaliações
+                                </ItemSobre>
+                                <ItemSobre
+                                    spy={true}
+                                    smooth
+                                    offset={-70}
+                                    duration={500}
+                                    to="dicas"
+                                >
+                                    Dicas
+                                </ItemSobre>
+                            </FooterSobre>
+                            <FooterInformacoes>
+                                <FooterTitle>Informações</FooterTitle>
+                                <ItemInformacoes to="/politica-de-privacidade">
+                                    Política de Privacidade
+                                </ItemInformacoes>
+                                <ItemInformacoes to="/termos-e-condicoes">
+                                    Termos e condições de uso
+                                </ItemInformacoes>
+                                <ItemInformacoes to="/regras">
+                                    Regras
+                                </ItemInformacoes>
+                                <ItemInformacoes to="https://api.whatsapp.com/send?phone=5577988115001">
+                                    Contato
+                                </ItemInformacoes>
+                                <ItemSobre
+                                    spy={true}
+                                    smooth
+                                    offset={-70}
+                                    duration={500}
+                                    to="dicas"
+                                >
+                                    Reserva
+                                </ItemSobre>
+                            </FooterInformacoes>
+                        </div>
+                        <span></span>
                     </FooterContent>
                     <FooterDeveloper>
                         <ItemInformacoes

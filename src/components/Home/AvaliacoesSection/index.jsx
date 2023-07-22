@@ -10,13 +10,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Container } from '@/components/Container';
 
-import Bruno from '../../../images/Avaliacoes/Bruno.jpg';
-import Daniela from '../../../images/Avaliacoes/Daniela.jpg';
-import Delimar from '../../../images/Avaliacoes/Delimar.jpg';
-import Jackeline from '../../../images/Avaliacoes/Jackeline.jpg';
-import Leila from '../../../images/Avaliacoes/Leila.jpg';
-import Ricardo from '../../../images/Avaliacoes/Ricardo.jpg';
-import Rosane from '../../../images/Avaliacoes/Rosane.jpg';
+import Daniela from '../../../images/Avaliacoes/M.jpeg';
+import Delimar from '../../../images/Avaliacoes/M.jpeg';
+import Jackeline from '../../../images/Avaliacoes/M.jpeg';
+import Leila from '../../../images/Avaliacoes/M.jpeg';
+import Rosane from '../../../images/Avaliacoes/M.jpeg';
+import Bruno from '../../../images/Avaliacoes/R.jpeg';
+import Ricardo from '../../../images/Avaliacoes/R.jpeg';
 
 import {
     AvaliacoesControl,

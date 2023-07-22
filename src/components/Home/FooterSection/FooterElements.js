@@ -12,9 +12,22 @@ export const Footer = styled.footer`
 `;
 
 export const FooterContent = styled.div`
+    position: relative;
     display: flex;
     justify-content: center;
     column-gap: 32px;
+`;
+
+export const FooterInstagram = styled.div`
+    position: absolute;
+    left: 0;
+`;
+
+export const InstagramItems = styled(LinkR)`
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
 `;
 
 export const FooterSobre = styled.div`

@@ -19,7 +19,7 @@ import {
 } from './HeroElements';
 
 const HeroSection = () => {
-    const maps = 'https://goo.gl/maps/fmJLvfh9sXp3MXbu6';
+    const maps = 'https://g.co/kgs/ytihC4';
     return (
         <>
             <HeroContainer id="inicio">
@@ -27,11 +27,11 @@ const HeroSection = () => {
                     <HeroContent>
                         <HeroTexts>
                             <HeroH1>
-                                Ouse viver o <span>extraordinário</span>.
+                                Seu refúgio praiano em <span>Trancoso</span>.
                             </HeroH1>
                             <HeroP>
-                                Seu refúgio perfeito, apenas um clique de
-                                distância!
+                                Feita para sediar momentos incríveis e lindos
+                                dias de sol num ambiente lindo e sofisticado!
                             </HeroP>
                             <HeroButton
                                 onClick={() =>

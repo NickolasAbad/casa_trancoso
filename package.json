@@ -19,6 +19,7 @@
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-webp": "^8.0.0",
     "react": "^18.2.0",
+    "react-collapsed": "^4.0.4",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-image-gallery": "^1.2.12",
@@ -26,6 +27,7 @@
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.14.2",
     "react-scroll": "^1.8.9",
+    "react-youtube": "^10.1.0",
     "styled-components": "^6.0.4",
     "swiper": "^10.0.4",
     "vite-plugin-vsharp": "^1.4.2"

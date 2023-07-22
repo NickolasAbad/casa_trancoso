@@ -40,18 +40,23 @@ const Sobre = () => {
                     <SobreTexts id="b">
                         <SobreSpan>Sobre</SobreSpan>
                         <SobreH2>
-                            Nossa essência é <span>realizar o seu sonho</span>
+                            Nossa essência é <span>hospedar bem</span>
                         </SobreH2>
                         <SobreP>
                             Desfrute de luxo e natureza em nossa casa de
                             temporada com jacuzzi, piscina e área verde. Relaxe,
                             aproveite a tranquilidade e crie memórias
                             inesquecíveis!
+                            <br />
+                            <br />
+                            Durante o dia, somos agraciados pelo sol, mas é a
+                            noite que a Casa Odara se ilumina num colorido de
+                            tirar o fôlego.
                         </SobreP>
                         <SobreInfos>
                             <SobreQuartos>
                                 <SobreQuartosN>6</SobreQuartosN>
-                                <SobreQuartosT>Quartos</SobreQuartosT>
+                                <SobreQuartosT>Suítes</SobreQuartosT>
                             </SobreQuartos>
                             <SobreBanheiros>
                                 <SobreBanheirosN>7</SobreBanheirosN>

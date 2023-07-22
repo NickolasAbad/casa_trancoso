@@ -58,20 +58,7 @@ export const ReserveDesc = styled.p`
     color: #808080;
     font-size: 18px;
     font-weight: 400;
-    margin: 32px 0 48px;
-`;
-
-export const ButtonDicas = styled.a.attrs({
-    href: 'https://blogdeviagemeturismo.com.br/dicas-de-viagem-a-trancoso/',
-    target: '_blank',
-})`
-    ${button};
-    margin-right: 16px;
-
-    @media screen and (max-width: 768px) {
-        margin: 0 auto;
-        margin-bottom: 8px;
-    }
+    padding: 32px 0 64px;
 `;
 
 export const ButtonReserve = styled.a`
