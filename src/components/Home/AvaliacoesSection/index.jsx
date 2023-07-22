@@ -74,7 +74,7 @@ const Avaliacoes = () => {
             image: Daniela,
             alt: 'Foto Daniela Avaliação',
             title: 'Daniela',
-            desc: 'excelente a casa, limpeza, conforto, camas, roupas de cama, móveis muito bem decorada estilo trancoso. funcionária muito eficiente e simpática.',
+            desc: 'excelente a casa, limpeza, conforto, camas, roupas de cama, móveis muito bem decorada estilo trancoso. funcionária muito simpática',
         },
         {
             image: Leila,
