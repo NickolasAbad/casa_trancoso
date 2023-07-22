@@ -19,7 +19,7 @@ import {
 } from './HeroElements';
 
 const HeroSection = () => {
-    const maps = 'https://g.co/kgs/ytihC4';
+    const maps = 'https://goo.gl/maps/6u25b5hGqeVFz6m89';
     return (
         <>
             <HeroContainer id="inicio">
