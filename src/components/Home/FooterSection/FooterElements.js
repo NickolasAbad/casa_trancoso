@@ -21,6 +21,12 @@ export const FooterContent = styled.div`
 export const FooterInstagram = styled.div`
     position: absolute;
     left: 0;
+    font-size: 14px;
+    font-weight: 400;
+
+    @media screen and (max-width: 768px) {
+        position: relative;
+    }
 `;
 
 export const InstagramItems = styled(LinkR)`
@@ -28,6 +34,11 @@ export const InstagramItems = styled(LinkR)`
     align-items: center;
     text-decoration: none;
     color: #000;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        margin-left: 16px;
+    }
 `;
 
 export const FooterSobre = styled.div`

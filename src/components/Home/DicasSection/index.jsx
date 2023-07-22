@@ -25,7 +25,7 @@ const Dicas = () => {
     };
 
     return (
-        <DicasContainer id="sobre">
+        <DicasContainer id="dicas">
             <Container>
                 <DicasContent>
                     <DicasHeader>

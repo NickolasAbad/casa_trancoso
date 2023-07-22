@@ -77,7 +77,7 @@ const Sidebar = ({ isOpen, toggle, togglerModal }) => {
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="dicas"
+                        to="reserve"
                     >
                         Reserve agora
                     </SidebarBtn>

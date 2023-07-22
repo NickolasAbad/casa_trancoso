@@ -13,7 +13,7 @@ import {
 
 const ReserveDicas = ({ togglerModal }) => {
     return (
-        <ReserveDicasSection id="dicas">
+        <ReserveDicasSection id="reserve">
             <Container>
                 <ReserveDicasContent>
                     <ReserveDicasHeader>

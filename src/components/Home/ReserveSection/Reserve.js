@@ -24,7 +24,7 @@ const button = css`
 `;
 
 export const ReserveDicasSection = styled.section`
-    padding: 5.6vw 5.6vw 11.2vw;
+    padding: 2.8vw 5.6vw 11.2vw;
 `;
 
 export const ReserveDicasContent = styled.div`
