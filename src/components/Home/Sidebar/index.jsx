@@ -11,7 +11,7 @@ import {
     SidebarWrapper,
 } from './SidebarElements';
 
-const Sidebar = ({ isOpen, toggle }) => {
+const Sidebar = ({ isOpen, toggle, togglerModal }) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon>
@@ -73,11 +73,11 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarBtnWrap>
                     <SidebarBtn
                         onClick={toggle}
-                        to="reserve"
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
+                        to="dicas"
                     >
                         Reserve agora
                     </SidebarBtn>

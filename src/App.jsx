@@ -10,6 +10,9 @@ import Interior from './pages/Interior';
 import Ofuro from './pages/Ofuro';
 import PortoSeguro from './pages/PortoSeguro';
 import PraiaDoEspelho from './pages/PraiaDoEspelho';
+import Privacidade from './pages/Privacidade';
+import RegrasPage from './pages/Regras';
+import TermosCondicoes from './pages/Termos';
 import Trancoso from './pages/Trancoso';
 import Home from './pages';
 
@@ -30,6 +33,15 @@ function App() {
                 <Route path="/praia-do-espelho" element={<PraiaDoEspelho />} />
                 <Route path="/porto-seguro" element={<PortoSeguro />} />
                 <Route path="/corumbau" element={<Corumbau />} />
+                <Route path="/regras" element={<RegrasPage />} />
+                <Route
+                    path="/termos-e-condicoes"
+                    element={<TermosCondicoes />}
+                />
+                <Route
+                    path="/politica-de-privacidade"
+                    element={<Privacidade />}
+                />
             </Routes>
         </Router>
     );

@@ -15,7 +15,9 @@ import {
     NavMenu,
 } from './NavbarElements';
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, togglerModal, open }) => {
+    // modal
+
     const [scrollNav, setScrollNav] = useState(false);
 
     const changeNav = () => {
@@ -38,7 +40,7 @@ const Navbar = ({ toggle }) => {
                         <NavLogo
                             to="inicio"
                             spy={true}
-                            smooth={true}
+                            smooth
                             offset={-70}
                             duration={500}
                         >
@@ -52,7 +54,7 @@ const Navbar = ({ toggle }) => {
                                 <NavLinks
                                     activeClass="active"
                                     spy={true}
-                                    smooth={true}
+                                    smooth
                                     offset={-70}
                                     duration={500}
                                     to="sobre"
@@ -64,7 +66,7 @@ const Navbar = ({ toggle }) => {
                                 <NavLinks
                                     activeClass="active"
                                     spy={true}
-                                    smooth={true}
+                                    smooth
                                     offset={-70}
                                     duration={500}
                                     to="comodidades"
@@ -76,7 +78,7 @@ const Navbar = ({ toggle }) => {
                                 <NavLinks
                                     activeClass="active"
                                     spy={true}
-                                    smooth={true}
+                                    smooth
                                     offset={-70}
                                     duration={500}
                                     to="avaliacoes"
@@ -88,7 +90,7 @@ const Navbar = ({ toggle }) => {
                                 <NavLinks
                                     activeClass="active"
                                     spy={true}
-                                    smooth={true}
+                                    smooth
                                     offset={-70}
                                     duration={500}
                                     to="dicas"
@@ -98,20 +100,15 @@ const Navbar = ({ toggle }) => {
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink
-                                activeClass="active"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                                to="reserve"
-                            >
+                            <NavBtnLink onClick={togglerModal}>
                                 Reserve agora
                             </NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Container>
             </Nav>
+
+            {/* MODAL RESERVE AGORA */}
         </>
     );
 };
