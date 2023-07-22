@@ -6,7 +6,7 @@ export const Footer = styled.footer`
     position: relative;
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 400px;
     background-color: #fff;
     box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
 `;
