@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 
 import AvaliacoesSection from '@/components/Home/AvaliacoesSection/';
 import ComodidadesSection from '@/components/Home/ComodidadesSection';
+import FooterSection from '@/components/Home/FooterSection';
 import HeroSection from '@/components/Home/HeroSection';
 import Navbar from '@/components/Home/Navbar';
-import ReserveDicas from '@/components/Home/ReserveDicasSection';
+import ReserveDicasSection from '@/components/Home/ReserveDicasSection';
 import Sidebar from '@/components/Home/Sidebar';
 import SobreSection from '@/components/Home/SobreSection';
 import ModalDiv from '@/containers/Modal';
@@ -28,7 +29,8 @@ const Home = () => {
             <SobreSection />
             <ComodidadesSection />
             <AvaliacoesSection />
-            <ReserveDicas togglerModal={togglerModal} />
+            <ReserveDicasSection togglerModal={togglerModal} />
+            <FooterSection />
         </>
     );
 };

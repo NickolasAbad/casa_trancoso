@@ -15,7 +15,7 @@ const Privacidade = () => {
                 <Container>
                     <div style={{ color: 'white' }}>
                         <h1 style={{ marginBottom: '8px' }}>
-                            Política de Privacidade para Casa Odará
+                            Política de Privacidade para Casa Odara
                         </h1>
 
                         <p
@@ -24,19 +24,19 @@ const Privacidade = () => {
                                 lineHeight: '20px',
                             }}
                         >
-                            No Casa Odará, acessível de
+                            No Casa Odara, acessível de
                             https://www.casaodara.com.br, uma de nossas
                             principais prioridades é a privacidade de nossos
                             visitantes. Este documento da Política de
                             Privacidade contém tipos de informações que são
-                            coletadas e registradas pelo Casa Odará e como as
+                            coletadas e registradas pelo Casa Odara e como as
                             usamos.
                         </p>
 
                         <h2 style={{ marginBottom: '8px' }}>Log Files</h2>
 
                         <p style={{ marginBottom: '16px', lineHeight: '20px' }}>
-                            O Casa Odará segue um procedimento padrão de uso de
+                            O Casa Odara segue um procedimento padrão de uso de
                             arquivos de log. Esses arquivos registram os
                             visitantes quando eles visitam sites. Todas as
                             empresas de hospedagem fazem isso e fazem parte da
@@ -57,7 +57,7 @@ const Privacidade = () => {
                         </h2>
 
                         <p style={{ marginBottom: '16px', lineHeight: '20px' }}>
-                            Como qualquer outro site, o Casa Odará usa
+                            Como qualquer outro site, o Casa Odara usa
                             'cookies'. Esses cookies são usados para armazenar
                             informações, incluindo as preferências dos
                             visitantes e as páginas do site que o visitante

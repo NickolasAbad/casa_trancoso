@@ -19,7 +19,7 @@ const Termos = () => {
                     }}
                 >
                     <h1 style={{ color: 'white', marginBottom: '20px' }}>
-                        Termos e Condições para Casa Odará
+                        Termos e Condições para Casa Odara
                     </h1>
 
                     <h2 style={{ color: 'white', marginBottom: '20px' }}>
@@ -28,14 +28,14 @@ const Termos = () => {
 
                     <p>
                         Estes Termos e Condições escritos nesta página regerão o
-                        seu uso do nosso website, Casa Odará acessível em
+                        seu uso do nosso website, Casa Odara acessível em
                         https://www.casaodara.com.
                     </p>
 
                     <p style={{ marginBottom: '32px' }}>
                         Ao utilizar este website, presumimos que você aceita
                         todos os termos e condições. Não continue a usar o Casa
-                        Odará se você não concordar com todos os termos e
+                        Odara se você não concordar com todos os termos e
                         condições estabelecidos nesta página.
                     </p>
 
@@ -44,9 +44,9 @@ const Termos = () => {
                     </h2>
 
                     <p style={{ marginBottom: '32px' }}>
-                        Você reconhece e concorda que o Casa Odará e/ou seus
+                        Você reconhece e concorda que o Casa Odara e/ou seus
                         licenciadores possuem os direitos de propriedade
-                        intelectual para todo o material no Casa Odará. Você tem
+                        intelectual para todo o material no Casa Odara. Você tem
                         permissão limitada, sujeita às restrições fornecidas
                         nestes Termos e Condições, para visualizar e imprimir
                         páginas do https://www.casaodara.com para seu uso
@@ -67,7 +67,7 @@ const Termos = () => {
                     >
                         <li>
                             Revender, sublicenciar ou comercializar qualquer
-                            material do Casa Odará;
+                            material do Casa Odara;
                         </li>
                         <li>
                             Usar este Website de qualquer maneira que possa

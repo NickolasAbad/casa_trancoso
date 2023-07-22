@@ -15,7 +15,7 @@ import {
     NavMenu,
 } from './NavbarElements';
 
-const Navbar = ({ toggle, togglerModal, open }) => {
+const Navbar = ({ toggle, togglerModal }) => {
     // modal
 
     const [scrollNav, setScrollNav] = useState(false);
@@ -44,7 +44,7 @@ const Navbar = ({ toggle, togglerModal, open }) => {
                             offset={-70}
                             duration={500}
                         >
-                            <FaHome /> <span>Odará</span>
+                            <FaHome /> <span>Odara</span>
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />

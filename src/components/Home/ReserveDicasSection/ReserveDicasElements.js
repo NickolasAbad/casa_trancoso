@@ -11,6 +11,8 @@ const button = css`
     font-size: 20px;
     user-select: none;
     cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
 
     &:hover {
         transition: all 0.2s ease-in-out;
@@ -22,7 +24,7 @@ const button = css`
 `;
 
 export const ReserveDicasSection = styled.section`
-    padding: 5.6vw;
+    padding: 5.6vw 5.6vw 11.2vw;
 `;
 
 export const ReserveDicasContent = styled.div`
@@ -63,11 +65,11 @@ export const ButtonDicas = styled.a.attrs({
     href: 'https://blogdeviagemeturismo.com.br/dicas-de-viagem-a-trancoso/',
     target: '_blank',
 })`
-    margin-right: 16px;
     ${button};
+    margin-right: 16px;
 
     @media screen and (max-width: 768px) {
-        margin-right: 0;
+        margin: 0 auto;
         margin-bottom: 8px;
     }
 `;

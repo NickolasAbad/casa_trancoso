@@ -18,7 +18,7 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 600,
+    width: 'auto',
     bgcolor: 'background.paper',
     boxShadow: 24,
     pb: 0,
@@ -62,13 +62,22 @@ const ModalDiv = ({ togglerModal, open }) => {
                         </Box>
                         <hr />
                         <Typography id="modal-modal-description" p={1} pt={2}>
-                            Ao prosseguir com a sua reserva, você concorda com
-                            os{' '}
-                            <a href="/termos-e-condicoes">
+                            Você concorda com os{' '}
+                            <a
+                                href="/termos-e-condicoes"
+                                style={{ textDecoration: 'none' }}
+                            >
                                 {' '}
                                 Termos e Condições
                             </a>{' '}
-                            e com as <a href="/regras">Regras de Locação</a>
+                            e com as{' '}
+                            <a
+                                href="/regras"
+                                style={{ textDecoration: 'none' }}
+                            >
+                                Regras de Locação
+                            </a>
+                            ?
                             <br />
                         </Typography>
                         <footer>
@@ -82,19 +91,21 @@ const ModalDiv = ({ togglerModal, open }) => {
                                 <Stack spacing={2} direction="row">
                                     <Button
                                         variant="contained"
-                                        color="inherit"
+                                        color="error"
                                         onClick={togglerModal}
+                                        style={{ maxHeight: '40px' }}
                                     >
-                                        Fechar
+                                        Não
                                     </Button>
                                     <Button
                                         variant="contained"
-                                        color="primary"
+                                        color="success"
                                         href="https://wa.link/fy7tjl"
                                         target="_blank"
                                         onClick={togglerModal}
+                                        style={{ maxHeight: '40px' }}
                                     >
-                                        Aceitar e continuar com a reserva
+                                        Concordo
                                     </Button>
                                 </Stack>
                             </Box>
