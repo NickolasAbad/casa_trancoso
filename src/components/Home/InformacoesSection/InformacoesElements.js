@@ -7,6 +7,7 @@ export const InformacoesContainer = styled.section`
 export const InformacoesContent = styled.div`
     display: block;
     align-items: center;
+    width: auto;
 `;
 
 export const InformacoesHeader = styled.div`
@@ -27,6 +28,7 @@ export const InformacoesH2 = styled.h2`
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 24px;
+    word-wrap: break-word;
 
     span {
         color: #e61c5d;

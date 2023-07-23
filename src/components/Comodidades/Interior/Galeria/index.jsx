@@ -1,5 +1,5 @@
+import React from 'react';
 import ImageGallery from 'react-image-gallery';
-import YouTube from 'react-youtube';
 
 import { Container } from '@/components/Container';
 
@@ -19,11 +19,11 @@ import interior13 from '../../../../images/Comodidades/Sala_06.jpeg';
 import interior14 from '../../../../images/Comodidades/Sala_07.jpeg';
 
 import { GaleriaSection } from './GaleriaElements';
+import ResponsiveYouTube from './ResponsiveYouTube';
+
+import './style.css';
 
 const images = [
-    {
-        renderItem: () => <YouTube videoId="wwLb4Jnoq_A" />,
-    },
     {
         original: interior,
         thumbnail: interior,
@@ -86,7 +86,15 @@ const Galeria = () => {
     return (
         <GaleriaSection>
             <Container style={{ marginBottom: '10vh' }}>
-                <ImageGallery autoPlay={false} items={images} lazyLoad={true} />
+                <ImageGallery
+                    style={{ marginBottom: '5.6vw' }}
+                    autoPlay={false}
+                    items={images}
+                    lazyLoad={true}
+                />
+                <div className="youtubevideo">
+                    <ResponsiveYouTube videoId="wwLb4Jnoq_A" />
+                </div>
             </Container>
         </GaleriaSection>
     );

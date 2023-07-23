@@ -7,6 +7,6 @@ export const GaleriaSection = styled.section`
     align-items: center;
     text-align: center;
     background-color: #112b3c;
-    height: calc(100vh - 80px);
+    height: auto;
     padding-bottom: 10vh;
 `;
