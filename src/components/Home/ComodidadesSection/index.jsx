@@ -116,7 +116,7 @@ const Comodidades = () => {
             to: '/arraial',
             image: Arraial,
             alt: 'Foto da Suíte 2',
-            title: 'Súite Arraial',
+            title: 'Suíte Arraial',
             desc: (
                 <>
                     <LuBedDouble />
@@ -132,7 +132,7 @@ const Comodidades = () => {
             to: '/trancoso',
             image: Trancoso,
             alt: 'Foto da Suíte 3',
-            title: 'Súite Trancoso',
+            title: 'Suíte Trancoso',
             desc: (
                 <>
                     <LuBedDouble />
@@ -148,7 +148,7 @@ const Comodidades = () => {
             to: '/praia-do-espelho',
             image: Espelho,
             alt: 'Foto da Suíte 4',
-            title: 'Súite Praia do Espelho',
+            title: 'Suíte Praia do Espelho',
             desc: (
                 <>
                     <LuBedDouble />
@@ -164,7 +164,7 @@ const Comodidades = () => {
             to: '/porto-seguro',
             image: PortoSeguro,
             alt: 'Foto Suíte 5',
-            title: 'Súite Porto Seguro',
+            title: 'Suíte Porto Seguro',
             desc: (
                 <>
                     <LuBedDouble />
@@ -180,7 +180,7 @@ const Comodidades = () => {
             to: '/corumbau',
             image: Corumbau,
             alt: 'Foto Suíte 6',
-            title: 'Súite Corumbau',
+            title: 'Suíte Corumbau',
             desc: (
                 <>
                     <LuBedDouble />
