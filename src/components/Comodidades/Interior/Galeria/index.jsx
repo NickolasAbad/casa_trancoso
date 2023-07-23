@@ -19,7 +19,7 @@ import interior13 from '../../../../images/Comodidades/Sala_06.jpeg';
 import interior14 from '../../../../images/Comodidades/Sala_07.jpeg';
 
 import { GaleriaSection } from './GaleriaElements';
-import ResponsiveYouTube from './ResponsiveYouTube';
+import ResponsiveYouTube from './ResponsiveYouTube.jsx';
 
 import './style.css';
 
