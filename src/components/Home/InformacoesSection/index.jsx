@@ -19,7 +19,7 @@ const Informacoes = () => {
             <Container>
                 <InformacoesContent>
                     <InformacoesHeader>
-                        <InformacoesSpan>Informacoes</InformacoesSpan>
+                        <InformacoesSpan>Informações</InformacoesSpan>
                         <InformacoesH2>
                             Características da <span>Casa Odara</span>
                         </InformacoesH2>
