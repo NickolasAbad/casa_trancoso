@@ -25,7 +25,7 @@ const Privacidade = () => {
                             }}
                         >
                             No Casa Odara, acessível de
-                            https://www.casaodara.com.br, uma de nossas
+                            https://www.odaratrancoso.com, uma de nossas
                             principais prioridades é a privacidade de nossos
                             visitantes. Este documento da Política de
                             Privacidade contém tipos de informações que são
@@ -75,11 +75,11 @@ const Privacidade = () => {
                             O Google é um fornecedor de terceiros em nosso site.
                             Ele também usa cookies, conhecido como DART cookies,
                             para veicular anúncios aos nossos visitantes do site
-                            com base em sua visita a www.casaodara.com e outros
-                            sites na internet. No entanto, os visitantes podem
-                            optar por recusar o uso de cookies DART visitando a
-                            Política de Privacidade da rede de anúncios e
-                            conteúdo do Google no seguinte URL –
+                            com base em sua visita a www.odaratrancoso.com e
+                            outros sites na internet. No entanto, os visitantes
+                            podem optar por recusar o uso de cookies DART
+                            visitando a Política de Privacidade da rede de
+                            anúncios e conteúdo do Google no seguinte URL –
                             https://policies.google.com/technologies/ads
                         </p>
 
