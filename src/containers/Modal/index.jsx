@@ -100,7 +100,7 @@ const ModalDiv = ({ togglerModal, open }) => {
                                     <Button
                                         variant="contained"
                                         color="success"
-                                        href="https://wa.link/fy7tjl"
+                                        href="https://wa.link/ug42ju"
                                         target="_blank"
                                         onClick={togglerModal}
                                         style={{ maxHeight: '40px' }}
