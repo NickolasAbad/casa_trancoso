@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ImageGallery from 'react-image-gallery';
+import MediaQuery from 'react-responsive';
 import YouTube from 'react-youtube';
 
 import { Container } from '@/components/Container';
@@ -116,6 +117,9 @@ const Galeria = () => {
             </div>
         );
     }
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <GaleriaSection>
             <Container style={{ marginBottom: '10vh' }}>
@@ -125,9 +129,11 @@ const Galeria = () => {
                     items={images}
                     lazyLoad={true}
                 />
-                <div className="youtubevideo">
-                    <ResponsiveYouTube videoId="wwLb4Jnoq_A" />
-                </div>
+                <MediaQuery minWidth={1024}>
+                    <div className="youtubevideo">
+                        <ResponsiveYouTube videoId="wwLb4Jnoq_A" />
+                    </div>
+                </MediaQuery>
             </Container>
         </GaleriaSection>
     );
