@@ -94,24 +94,17 @@ const Dicas = () => {
                                 </Typography>
                                 <br />
                                 <Typography>
-                                    Réveillon em Trancoso Trancoso no final de
-                                    ano virou sinônimo de festa badalada, fina e
-                                    elegante, sendo o destino queridinho de
-                                    famosos para a virada do ano fora das
-                                    grandes capitais.
+                                    Réveillon em Trancoso no final de ano virou
+                                    sinônimo de festa badalada, fina e elegante,
+                                    sendo o destino queridinho de famosos para a
+                                    virada do ano fora das grandes capitais.
                                 </Typography>
                                 <br />
                                 <Typography>
                                     Apesar de toda essa parte histórica que é
                                     pura poesia em Trancoso, sem dúvidas, as
                                     praias vão ocupar grande parte do seu
-                                    encantamento pelo vilarejo. Durante o dia,
-                                    você pode aproveitar as deslumbrantes e
-                                    paradisíacas praias, fazer caminhadas na
-                                    areia e apreciar as paisagens fascinantes da
-                                    região. Já a noite, a sugestão é ir para o
-                                    centro histórico e curtir o clima do
-                                    Quadrado.
+                                    encantamento pelo vilarejo.
                                 </Typography>
                                 <br />
                                 <Typography>
@@ -206,7 +199,7 @@ const Dicas = () => {
                                             target="_blank"
                                             rel="noreferrer"
                                         >
-                                            Praia de Trancoso
+                                            Praia no Espelho
                                         </a>
                                     </li>
                                     <li style={{ paddingBottom: '4px' }}>

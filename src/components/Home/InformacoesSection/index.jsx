@@ -33,7 +33,7 @@ const Informacoes = () => {
                         morada tem sua própria personalidade e decoração
                         minimalista que remete a uma deslumbrante praia da
                         região, fazendo da Casa Odara uma morada elegante,
-                        ecofriendly e que se funde magistralmente com o mood e o
+                        ecofriendly e que se funde magistralmente com o mood e a
                         atmosfera praiana cultivados em Trancoso.
                     </InformacoesP>
                     <section {...getCollapseProps()}>

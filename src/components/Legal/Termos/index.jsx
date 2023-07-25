@@ -29,7 +29,7 @@ const Termos = () => {
                     <p>
                         Estes Termos e Condições escritos nesta página regerão o
                         seu uso do nosso website, Casa Odara acessível em
-                        https://www.odaratrancoso.com.
+                        https://www.odaratrancoso.com.br.
                     </p>
 
                     <p style={{ marginBottom: '32px' }}>
@@ -49,7 +49,7 @@ const Termos = () => {
                         intelectual para todo o material no Casa Odara. Você tem
                         permissão limitada, sujeita às restrições fornecidas
                         nestes Termos e Condições, para visualizar e imprimir
-                        páginas do https://www.odaratrancoso.com para seu uso
+                        páginas do https://www.odaratrancoso.com.br para seu uso
                         pessoal, e não para uso comercial.
                     </p>
 
