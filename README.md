@@ -29,16 +29,16 @@ O design foi meticulosamente criado no Figma, resultando em uma aparência deslu
 Quer conferir o código? Siga estes passos:
 
 1. **Clone o Repositório**
-2. 
-git clone https://github.com/NickolasAbad/casa_trancoso.git
+
+- git clone https://github.com/NickolasAbad/casa_trancoso.git
 
 3. **Instale as Dependências**
-4. 
-npm install
+
+- npm install
 
 5. **Rode o Projeto**
-6. 
-npm run dev
+
+- npm run dev
 
 7. **Aproveite!** 🎉 Abra o navegador e visite `http://localhost:3000`.
 
